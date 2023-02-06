@@ -10,7 +10,7 @@ bool compareFrequency(const pair<char, int>& a, const pair<char, int>& b)
 
 int main()
 {
-    const char testedString[] = "Hi! This is a code that will check this string and it will count the frequency of every letter presented in this string.";
+    static char testedString[] = "Hi! This is a code that will check this string and it will count the frequency of every letter presented in this string.";
     const int alphabetLength = 26;
     char alphabet[alphabetLength * 2];
     int counter[alphabetLength * 2] = { 0 };
